@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+out/
+.next/
+.nuxt/
+coverage/
+
+# Generated files
+*.min.js
+*.min.css
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs and misc
+*.log
+.cache/
+
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+out/
+.next/
+.nuxt/
+coverage/
+
+# Generated files
+*.min.js
+*.min.css
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs and misc
+*.log

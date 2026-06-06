@@ -1,0 +1,31 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-background {
+  padding: 32px;
+  background-color: var(--purple-600);
+
+  img {
+    height: 70px;
+    width: auto;
+    margin: 0 32px 32px 0;
+  }
+}
+
+.profile-foreground {
+  display: flex;
+  gap: 20px;
+  padding: 32px;
+  flex-direction: column;
+  background-color: var(--navy-900);
+
+  button {
+    width: fit-content;
+    background-color: none;
+    background: none;
+    color: var(--white);
+    border: none;
+  }
+}

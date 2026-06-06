@@ -1,0 +1,15 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  max-width: 1100px;
+  margin-inline: auto auto;
+  margin-block: auto auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

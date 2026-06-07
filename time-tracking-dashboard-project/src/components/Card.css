@@ -25,6 +25,12 @@
   min-width: 280px;
 }
 
+.card-container:hover {
+  .card-content {
+    background-color: var(--purple-700);
+  }
+}
+
 .card-background {
   display: flex;
   max-height: 70px;

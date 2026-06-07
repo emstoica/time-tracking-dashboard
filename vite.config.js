@@ -4,7 +4,7 @@ import svgr from 'vite-plugin-svgr'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: './',
+  base: '/time-tracking-dashboard/',
   plugins: [react(), svgr()],
   build: {
     outDir: 'dist',

@@ -9,8 +9,10 @@ function ProfileCard({ name, profileImage, timeframe, onTimeframeChange }) {
           src={profileImage}
           alt={name + ' profile image' || 'John Doe profile image'}
         />
-        <p className="report-for">Report for</p>
-        <h1>{name || 'John Doe'}</h1>
+        <div className="profile-name">
+          <p className="report-for">Report for</p>
+          <h1>{name || 'John Doe'}</h1>
+        </div>
       </div>
       <div className="profile-foreground">
         {options.map((option) => (

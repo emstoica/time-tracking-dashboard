@@ -1,3 +1,90 @@
-.iconEllipsis {
-  color: red;
+/* Card backgrounds */
+.work {
+  background-color: var(--orange-300);
+}
+.play {
+  background-color: var(--blue-300);
+}
+.study {
+  background-color: var(--pink-400);
+}
+.exercise {
+  background-color: var(--green-400);
+}
+.social {
+  background-color: var(--purple-700);
+}
+.self-care {
+  background-color: var(--yellow-300);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 280px;
+}
+
+.card-background {
+  display: flex;
+  max-height: 70px;
+  padding-right: 18px;
+  border-radius: 20px 20px 0 0;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.card-content {
+  position: relative;
+  margin-top: -20px; /* pulls it up under the header */
+  padding-top: 60px; /* push content back down so buttons clear the header */
+  background-color: var(--navy-900);
+  border-radius: 20px;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .card-hours {
+    font-size: 48px;
+    font-weight: 300;
+  }
+
+  .card-previous {
+    color: var(--navy-200);
+    font-size: 14px;
+  }
+}
+
+@media (width<1024px) {
+  .card-body {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .card-hours {
+      font-size: 24px;
+      margin: 0px;
+    }
+    .card-previous {
+      margin: 0px;
+    }
+  }
 }

@@ -110,13 +110,11 @@ textarea:not([rows]) {
 }
 
 body {
-  margin: 0;
   background-color: var(--navy-950);
   color: var(--white);
-  height: 100vh;
+  height: 100%;
   font-size: 18px;
   font-weight: 300;
-
   display: flex;
   align-items: center;
   justify-content: center;
